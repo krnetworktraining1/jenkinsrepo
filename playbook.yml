@@ -1,0 +1,6 @@
+- hosts: web
+  tasks:
+    - name: create directory
+      file:
+         path: /tmp/data
+         state: directory
