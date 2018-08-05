@@ -4,3 +4,7 @@
       file:
          path: /tmp/data
          state: directory
+
+    - copy:
+          content: "jenkins intregration"
+          dest: /tmp/data/abc.txt
